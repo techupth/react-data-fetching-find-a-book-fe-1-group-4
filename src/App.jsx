@@ -28,6 +28,7 @@ function App() {
           value={query} 
         />
       </div>
+      
       <ul className="book-list">
         {books.filter((book) => {
           if (query === "") {
